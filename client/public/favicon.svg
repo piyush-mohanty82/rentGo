@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3A69"/>
+      <stop offset="100%" stop-color="#1E88E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+
+  <!-- Letter R -->
+  <path
+    d="M18 50V14H34
+       C42 14 47 19 47 27
+       C47 34 42 38 35 38H18
+       M35 38L48 50"
+    fill="none"
+    stroke="white"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <!-- Road -->
+  <path
+    d="M20 47C27 39 34 30 46 18"
+    fill="none"
+    stroke="#4FC3F7"
+    stroke-width="3.2"
+    stroke-linecap="round"/>
+
+  <!-- Road markings -->
+  <path
+    d="M29 37L32 34M36 30L39 27"
+    stroke="white"
+    stroke-width="1.8"
+    stroke-linecap="round"/>
+</svg>
