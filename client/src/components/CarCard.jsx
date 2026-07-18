@@ -47,9 +47,7 @@ const CarCard = ({car}) => {
                     <span>{car.location}</span>
                 </div>
             </div>
-
-        </div>
-      
+        </div>    
     </div>
   )
 }
